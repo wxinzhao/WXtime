@@ -2,6 +2,21 @@ $watchPath = "E:\desktop\学习资料\WXtime"
 $lastStatus = ""
 $debounceSeconds = 10
 
+function Get-NextVersion {
+    $latestTag = git tag --list 'v*' --sort=-v:refname | Select-Object -First 1
+    if ($latestTag) {
+        $num = [int]($latestTag -replace 'v', '')
+        return "v$($num + 1)"
+    }
+    return "v1"
+}
+
+function Get-GitCommitCount {
+    $count = git rev-list --count HEAD 2>$null
+    if ($count) { return [int]$count }
+    return 0
+}
+
 Write-Host "正在监听文件变更，每 5 秒检查一次..." -ForegroundColor Cyan
 Write-Host "按 Ctrl+C 停止监听" -ForegroundColor Yellow
 
@@ -30,9 +45,11 @@ while ($true) {
     if (-not $hasChanges) { Write-Host "无有效变更，跳过提交" -ForegroundColor DarkGray; continue }
 
     $time = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    git commit -m "自动同步 $time"
-    git push 2>&1
+    $version = Get-NextVersion
+    git commit -m "$version - 自动同步 $time"
+    git tag $version
+    git push --atomic origin master $version 2>&1
 
-    Write-Host "已同步到 GitHub ($time)" -ForegroundColor Green
+    Write-Host "已同步到 GitHub，版本: $version ($time)" -ForegroundColor Green
     $lastStatus = ""
 }
