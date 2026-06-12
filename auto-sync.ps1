@@ -2,6 +2,9 @@ $watchPath = $PSScriptRoot
 $lastStatus = ""
 $debounceSeconds = 3
 
+git config --global http.proxy http://127.0.0.1:7897 2>$null
+git config --global https.proxy http://127.0.0.1:7897 2>$null
+
 Write-Host "Watching for file changes (every 2s)..." -ForegroundColor Cyan
 Write-Host "Auto: git add -> commit -> tag -> push" -ForegroundColor Cyan
 Write-Host "Rollback: git checkout v<number>" -ForegroundColor Yellow
@@ -9,7 +12,7 @@ Write-Host "List versions: git tag -l" -ForegroundColor Yellow
 Write-Host "Press Ctrl+C to stop`n" -ForegroundColor Magenta
 
 while ($true) {
-    Start-Sleep -Seconds 5
+    Start-Sleep -Seconds 2
     Set-Location -LiteralPath $watchPath
 
     $status = git status --porcelain
