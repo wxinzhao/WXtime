@@ -1,0 +1,1 @@
+2026-04-24 13:26:13.335 wxauto.py[158] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}

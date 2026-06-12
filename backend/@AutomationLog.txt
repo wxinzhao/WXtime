@@ -1,0 +1,61 @@
+
+[WinError -2147221008] 尚未调用 CoInitialize。
+Can not load UIAutomationCore.dll.
+1, You may need to install Windows Update KB971513 if your OS is Windows XP, see https://github.com/yinkaisheng/WindowsUpdateKB971513ForIUIAutomation
+2, You need to use an UIAutomationInitializerInThread object if use uiautomation in a thread, see demos/uiautomation_in_thread.py
+
+[WinError -2147221008] 尚未调用 CoInitialize。
+Can not load UIAutomationCore.dll.
+1, You may need to install Windows Update KB971513 if your OS is Windows XP, see https://github.com/yinkaisheng/WindowsUpdateKB971513ForIUIAutomation
+2, You need to use an UIAutomationInitializerInThread object if use uiautomation in a thread, see demos/uiautomation_in_thread.py
+
+[WinError -2147221008] 尚未调用 CoInitialize。
+Can not load UIAutomationCore.dll.
+1, You may need to install Windows Update KB971513 if your OS is Windows XP, see https://github.com/yinkaisheng/WindowsUpdateKB971513ForIUIAutomation
+2, You need to use an UIAutomationInitializerInThread object if use uiautomation in a thread, see demos/uiautomation_in_thread.py
+
+[WinError -2147221008] 尚未调用 CoInitialize。
+Can not load UIAutomationCore.dll.
+1, You may need to install Windows Update KB971513 if your OS is Windows XP, see https://github.com/yinkaisheng/WindowsUpdateKB971513ForIUIAutomation
+2, You need to use an UIAutomationInitializerInThread object if use uiautomation in a thread, see demos/uiautomation_in_thread.py
+2026-04-24 13:15:57.578 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:16:11.840 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:16:53.112 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:17:06.271 wxauto.py[185] ChatWith -> 2026-04-24 13:20:19.207 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:20:32.700 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:20:59.010 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:21:13.934 wxauto.py[185] ChatWith -> 2026-04-24 13:22:50.668 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:23:05.218 wxauto.py[185] ChatWith -> 2026-04-24 13:23:40.736 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:23:50.783 wxauto.py[158] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 13:24:02.953 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:24:13.752 wxauto.py[158] GetSessionList -> 2026-04-24 13:25:03.040 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:25:13.187 wxauto.py[158] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 13:25:35.642 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:25:45.812 wxauto.py[158] GetSessionList -> 2026-04-24 13:28:53.538 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:29:04.497 wxauto.py[158] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 13:29:20.107 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:29:31.073 wxauto.py[158] GetSessionList -> 2026-04-24 13:30:08.219 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:30:19.205 wxauto.py[158] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 13:30:32.423 wxauto.py[185] ChatWith -> Find Control Timeout(10s): {ClassName: 'WeChatMainWndForPC', ControlType: WindowControl}
+2026-04-24 13:30:43.425 wxauto.py[158] GetSessionList -> 2026-04-24 13:31:50.156 wxauto_patched.py[128] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 13:32:00.161 wxauto_patched.py[163] roll_to -> Find Control Timeout(10s): {Name: '会话', ControlType: ListControl}
+2026-04-24 13:32:10.173 wxauto_patched.py[128] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 13:32:24.101 wxauto_patched.py[128] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 13:32:34.109 wxauto_patched.py[163] roll_to -> Find Control Timeout(10s): {Name: '会话', ControlType: ListControl}
+2026-04-24 13:32:44.117 wxauto_patched.py[128] GetSessionList -> 2026-04-24 13:34:07.663 wxauto_patched.py[195] SendMsg -> Find Control Timeout(10s): {Name: '输入', ControlType: EditControl}
+2026-04-24 13:34:35.755 wxauto_patched.py[195] SendMsg -> 2026-04-24 13:35:21.721 wxauto_patched.py[198] SendMsg -> Find Control Timeout(10s): {ControlType: EditControl}
+2026-04-24 13:35:49.768 wxauto_patched.py[198] SendMsg -> 2026-04-24 14:06:12.236 wxauto_patched.py[175] ChatWith -> Find Control Timeout(10s): {ClassName: 'Qt51514QWindowIcon', Name: '微信', ControlType: WindowControl}
+2026-04-24 14:06:22.986 wxauto_patched.py[144] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 14:06:37.412 wxauto_patched.py[175] ChatWith -> Find Control Timeout(10s): {ClassName: 'Qt51514QWindowIcon', Name: '微信', ControlType: WindowControl}
+2026-04-24 14:06:37.951 wxauto_patched.py[175] ChatWith -> Find Control Timeout(10s): {ClassName: 'Qt51514QWindowIcon', Name: '微信', ControlType: WindowControl}
+2026-04-24 14:06:47.566 wxauto_patched.py[144] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 14:06:48.754 wxauto_patched.py[144] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-24 14:07:27.013 wxauto_patched.py[198] SendMsg -> 2026-04-25 11:04:41.825 wxauto_patched.py[149] GetSessionList -> 2026-04-25 11:06:49.858 wxauto_patched.py[149] GetSessionList -> 2026-04-25 11:07:53.734 wxauto_patched.py[149] GetSessionList -> 2026-04-25 11:10:11.191 wxauto_patched.py[149] GetSessionList -> 2026-04-25 11:11:31.824 wxauto_patched.py[149] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-25 11:11:47.332 wxauto_patched.py[191] ChatWith -> 2026-04-25 11:13:08.359 wxauto_patched.py[149] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-25 11:13:19.366 wxauto_patched.py[188] ChatWith -> 2026-04-25 11:16:05.347 wxauto_patched.py[149] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-25 11:21:32.286 wxauto_patched.py[149] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-25 11:26:32.292 wxauto_patched.py[149] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-25 11:31:32.287 wxauto_patched.py[149] GetSessionList -> 2026-04-25 11:36:31.181 wxauto_patched.py[149] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-25 11:41:15.540 wxauto_patched.py[149] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-25 11:41:57.630 wxauto_patched.py[149] GetSessionList -> 2026-04-25 11:43:40.184 wxauto_patched.py[149] GetSessionList -> Find Control Timeout(10s): {ControlType: ListItemControl}
+2026-04-25 11:49:06.748 wxauto_patched.py[149] GetSessionList -> 2026-04-25 11:50:43.874 wxauto_patched.py[149] GetSessionList -> 2026-04-25 12:47:20.783 wxauto_patched.py[144] GetSessionList -> 2026-04-25 12:55:10.092 wxauto_patched.py[144] GetSessionList -> 
