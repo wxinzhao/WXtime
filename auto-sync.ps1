@@ -1,4 +1,4 @@
-$watchPath = "E:\desktop\学习资料\WXtime"
+$watchPath = $PSScriptRoot
 $lastStatus = ""
 $debounceSeconds = 10
 
