@@ -1,8 +1,8 @@
 $watchPath = $PSScriptRoot
 $lastStatus = ""
-$debounceSeconds = 10
+$debounceSeconds = 3
 
-Write-Host "Watching for file changes (every 5s)..." -ForegroundColor Cyan
+Write-Host "Watching for file changes (every 2s)..." -ForegroundColor Cyan
 Write-Host "Auto: git add -> commit -> tag -> push" -ForegroundColor Cyan
 Write-Host "Rollback: git checkout v<number>" -ForegroundColor Yellow
 Write-Host "List versions: git tag -l" -ForegroundColor Yellow
